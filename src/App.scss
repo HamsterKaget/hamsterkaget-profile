@@ -201,8 +201,6 @@ a.button {
 
 }
 
-// css for skills.js
-
 .language {
     .language-wrapper {
         .container {
@@ -327,6 +325,143 @@ a.button {
                     }
                 }
             }
+        }
+    }
+}
+
+.library {
+    .library-wrapper {
+        .container {
+
+            .library-bar {
+
+
+                .container-parent {
+                    margin: 40px 20px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: space-between;
+                    
+                    .container-left {
+                        width: 33%;
+                        
+                        .name-lib-lang {
+                            text-align: center;
+                            letter-spacing: 2px;
+                            padding: 10px 20px;
+                            font-size: 14px;
+                        }
+
+                        .background-lib-bar {
+                            width: 100%;
+                            background-color: $background-button;
+                            border-radius: 15px;
+                            height: 25px;
+                            border-color: $font-color;
+                            border-style: solid;
+                            border-width: 3px;
+
+                            .skill {
+                                padding: 10px 0;
+                                height: 18px;
+                                border-radius: 15px;
+                            }
+                            
+                            .boostrap {
+                                width: 60%;
+                                background-color: $boostrap;
+                            }
+
+                            .sass {
+                                width: 80%;
+                                background-color: $sass;
+                            }
+                        }
+
+                    }
+
+                    .container-center {
+                        width: 33%;
+
+                        .name-lib-lang {
+                            text-align: center;
+                            letter-spacing: 2px;
+                            padding: 10px 20px;
+                            font-size: 14px;
+                        }
+
+                        .background-lib-bar {
+                            width: 100%;
+                            background-color: $background-button;
+                            border-radius: 15px;
+                            height: 25px;
+                            border-color: $font-color;
+                            border-style: solid;
+                            border-width: 3px;
+
+                            .skill {
+                                padding: 10px 0;
+                                height: 18px;
+                                border-radius: 15px;
+                            }
+
+                            .react {
+                                width: 60%;
+                                background-color: $react;
+                            }
+
+                            .node {
+                                width: 10%;
+                                background-color: $node;
+                            }
+                        }
+
+                    }
+
+                    .container-right {
+                        width: 33%;
+
+                        .name-lib-lang {
+                            text-align: center;
+                            letter-spacing: 2px;
+                            padding: 10px 20px;
+                            font-size: 14px;
+                        }
+
+                        .background-lib-bar {
+                            width: 100%;
+                            background-color: $background-button;
+                            border-radius: 15px;
+                            height: 25px;
+                            border-color: $font-color;
+                            border-style: solid;
+                            border-width: 3px;
+
+                            .skill {
+                                padding: 10px 0;
+                                height: 18px;
+                                border-radius: 15px;
+                            }
+
+                            .discord {
+                                width: 35%;
+                                background-color: $discord;
+                            }
+
+                            .git {
+                                width: 80%;
+                                background-color: $git;
+                            }
+                            
+
+                        }
+
+                    }
+
+                }
+            }
+
         }
     }
 }

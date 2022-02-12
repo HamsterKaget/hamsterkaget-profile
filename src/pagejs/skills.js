@@ -2,7 +2,7 @@ import React from "react";
 import react from "react";
 import '../App.scss'
 
-class skills extends React.Component {
+class Skills extends React.Component {
     render() {
         return (
             
@@ -67,3 +67,5 @@ class skills extends React.Component {
         )
     }
 }
+
+export default Skills;

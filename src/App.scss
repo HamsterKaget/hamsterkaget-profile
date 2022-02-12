@@ -1,0 +1,202 @@
+@import './color';
+@import './mixin';
+
+// css for navbar.js
+
+nav {
+    background-color: $background-card;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    
+    .navbar-left {
+    
+        .container-navbar-left {
+            float: left;
+            margin: 5px 20px;
+
+            .slogan {
+                font-size: 14px;
+                margin-top: -5px;
+            }
+        }
+
+    }
+
+    .navbar-right {
+
+        .container-navbar-right {
+            float: right;
+            height: fit-content;
+
+            ul {
+
+                li {
+                    float: left;
+
+                    a {
+                        padding: 0px 25px;
+                        display: block;
+                        float: left;
+                        background-color: $background-button;
+                        line-height: 60px;
+                        transition: all 0.8s;
+                        
+                        &:hover {
+                            background-color: $orange;
+                        }
+
+                        &:active {
+                            background-color: $sql;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+// css for landing.js
+
+.top {
+
+    padding: 60px 0 0 0;
+
+    .top-wrapper {
+        background:
+            linear-gradient(
+                rgba(0, 0, 0, 0.7), 
+                rgba(0, 0, 0, 0.7)
+            ), url('./image/arnold-francisca-f77Bh3inUpE-unsplash.jpg');
+        background-size: cover;
+        background-blend-mode: darken;
+        text-align: center;
+        padding: 60px 0 50px 0;
+
+        .avatar-hamster {
+            background-image: url('https://images-ext-1.discordapp.net/external/on70in54InrZ-UDV4jK0ezXBVFUqk4dNfYHIxt-spwk/https/cdn.discordapp.com/icons/878869835805761596/d685fbdc273690a919010e761eda0c00.png');
+            width: 100px;
+            height: 100px;
+
+            background-size: cover;
+            background-position: top center;
+
+            border-radius: 50%;
+            border: 2px solid $font-color;
+            margin: 0px auto;
+            
+
+        }
+
+        h1 {
+            font-size: 48px;
+            letter-spacing: 3px;
+            margin-top: 15px;
+            text-transform: capitalize;
+        }
+
+        p {
+            margin-top: 10px;
+            font-size: 16px;
+            letter-spacing: 1.5px;
+        }
+
+
+    }
+
+}
+
+a.button {
+    height: 50px;
+    width: 200px;
+    margin: 20px auto;
+    background-color: $blue;
+    display: block;
+    line-height: 50px;
+    opacity: 0.7;
+    border-radius: 12px;
+    box-shadow: 0 5px darken($blue,20%);
+    color: #ffffff;
+
+    &:hover {
+        opacity: 0.9;
+    }
+
+    &:active {
+        position: relative;
+        top: 5px;
+        box-shadow: none;
+    }
+}
+
+// sss for jobs.js
+
+.container {
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading-title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 32px;
+    padding: 12px 0;
+
+}
+
+.garis {
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 12px;
+}
+
+.job {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    .card {
+
+        width: 31%;
+        background: #222;
+        padding: 20px 10px;
+        margin-bottom: 20px;
+        border-radius: 12px;
+        transition: all 0.5s;
+
+        .content {
+
+            .job-title {
+                font-size: 23px;
+                font-weight: 500;
+                padding: -10px 0 10px 0;
+                text-transform: capitalize;
+            }
+
+        }
+
+    }
+
+    .light-blue:hover {
+        @include card-hover($light-blue,$light-purple)
+    }
+
+    .orange:hover {
+        @include card-hover($orange,$orange-yellow)
+    }
+
+    .green:hover {
+        @include card-hover($green,$yellow)
+    }
+
+    .purple:hover {
+        @include card-hover($purple,$light-purple);
+        
+    }
+
+}

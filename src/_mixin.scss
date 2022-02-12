@@ -1,0 +1,14 @@
+@import "./color";
+
+// Mixin untuk Card Saat Hover
+@mixin card-hover($warna, $warna2) {
+    background-color: $warna;
+    background-image: linear-gradient(62deg, $warna 0%, $warna2 100% );
+
+    p, .icon i, .job-title, a {
+        color: #222;
+    }
+
+    
+
+}

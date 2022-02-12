@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import React from 'react';
+import Navbar from './pagejs/navbar';
+import Landing from './pagejs/landing';
+import Jobs from './pagejs/jobs'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+
+      <section className='Landing-Page'>
+        <Navbar />
+        <Landing />
+        <Jobs />
+      </section>
+
+    )
+  }
 }
 
 export default App;

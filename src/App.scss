@@ -200,3 +200,133 @@ a.button {
     }
 
 }
+
+// css for skills.js
+
+.language {
+    .language-wrapper {
+        .container {
+            .heading-title {
+
+                h2 {
+                    margin-top: -12px;
+                }
+
+            }
+
+            .languages-bar {
+
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-between;
+
+                .container-left {
+                    width: 45%;
+
+                    .name-lang {
+                        text-align: start;
+                        padding: 10px 30px;
+                        letter-spacing: 2px;
+                    }
+
+                    .html-icon {
+                        color: lighten($html,5%);
+                    }
+
+                    .css-icon {
+                        color: $css;
+                    }
+
+                    .js-icon {
+                        color: $js;
+                    }
+
+                    .background-bar {
+                        margin: 0 0 0 20px;
+                        width: 100%;
+                        background-color: $background-button;
+                        height: 30px;
+                        border-radius: 14px;
+
+                        .skill {
+                            text-align: right;
+                            padding: 10px 0;
+                            height: 30px;
+                            border-radius: 14px;
+                        }
+
+                        .html {
+                            width: 85%;
+                            background-color: $html;
+                        }
+
+                        .css {
+                            width: 75%;
+                            background-color: $css;
+                        }
+
+                        .js {
+                            width: 70%;
+                            background-color: $js;
+                        }
+
+                    }
+    
+                }
+    
+                .container-right {
+                    width: 45%;
+
+                    .name-lang {
+                        text-align: start;
+                        padding: 10px 15px;
+                        letter-spacing: 2px;
+                    }
+
+                    .java-icon {
+                        color: $java;
+                    }
+
+                    .php-icon {
+                        color: $php;
+                    }
+
+                    .sql-icon {
+                        color: $sql;
+                    }
+
+                    .background-bar {
+                        margin: 0 40px 0 -10px;
+                        width: 100%;
+                        background-color: $background-button;
+                        height: 30px;
+                        border-radius: 14px;
+
+                        .skill {
+                            text-align: right;
+                            padding: 10px 0;
+                            height: 30px;
+                            border-radius: 14px;
+                        }
+
+                        .php {
+                            width: 20%;
+                            background-color: $php;
+                        }
+
+                        .sql {
+                            width: 25%;
+                            background-color: $sql;
+                        }
+
+                        .java {
+                            width: 90%;
+                            background-color: $java;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

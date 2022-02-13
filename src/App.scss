@@ -69,7 +69,7 @@ nav {
             linear-gradient(
                 rgba(0, 0, 0, 0.7), 
                 rgba(0, 0, 0, 0.7)
-            ), url('./image/arnold-francisca-f77Bh3inUpE-unsplash.jpg');
+            ), url('./image/code.jpg');
         background-size: cover;
         background-blend-mode: darken;
         text-align: center;
@@ -590,6 +590,7 @@ a.button {
             border-width: 1px;
             border-color: $font-color;
             color: $background-card;
+            border-radius: 14px;
 
             .label {
                 width: 30%;
@@ -597,6 +598,7 @@ a.button {
                 display: inline-block;
                 height: 60px;
                 background-color: $background-button;
+                border-radius: 14px;
                 
                 .label-container {
 
@@ -623,5 +625,100 @@ a.button {
         }
     }
 
+}
+
+.project-wrapper {
+
+    .title {
+        text-align: center;
+
+        h3 {
+            font-size: 26px;
+            font-weight: 500;
+            margin-top: 10px;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+        }
+        
+        hr {
+            margin: 0 auto;
+            width: 40%;
+        }
+
+    }
+
+    .cards {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        .card {
+            width: 20%;
+            height: 400px;
+            background-color: $background-card;
+            border-radius: 12px;
+            text-align: center;
+
+
+            img {
+                width: 100%;
+                height: 175px;
+                border-radius: 12px;
+            }
+
+            h4 {
+                margin-top: -5px;
+            }
+
+            hr {
+                width: 70%;
+                margin: 5px auto;
+                border-style: solid;
+                height: 0.4px;
+                opacity: 0.6;
+            }
+
+            p {
+                padding: 2px 6px;
+            }
+
+            a {
+                padding: 5px 0;
+                margin: 0 20%;
+                display: block;
+                background-color: $background-button;
+                border-radius: 8px;
+
+                &:hover {
+                    background-color: $purple;
+                }
+                
+            }
+
+            i {
+                padding-right: 10px;
+                opacity: 0.8;
+            }
+
+            .button-small {
+                text-transform: capitalize;
+                margin-top: 10px;
+                margin-bottom: 15px;
+                
+            }
+            
+        }
+
+        .one, .two, .three, .four {
+            margin: 2.5% 0;
+        }
+
+        .one {
+            margin-left: 45px;
+        }
+
+        .four {
+            margin-right: 45px;
+        }
+    }
 }
 

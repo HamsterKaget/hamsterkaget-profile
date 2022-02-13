@@ -13,33 +13,33 @@ class Library extends React.Component {
                             <div class="container-parent">
                                 <div class="container-left">
 
-                                    <p class="name-lib-lang"><i class="fa-brands fa-bootstrap boostrap-icon"></i> Boostrap </p>
+                                    <p class="name-lib-lang"><i class="fa-brands fa-bootstrap boostrap-icon boostrap"></i> Boostrap </p>
                                     <div class="background-lib-bar">
                                         <div class="skill boostrap"></div>
                                     </div>
-                                    <p class="name-lib-lang"><i class="fa-brands fa-sass sass-icon"></i> SASS / SCSS </p>
+                                    <p class="name-lib-lang"><i class="fa-brands fa-sass sass-icon sass"></i> SASS / SCSS </p>
                                     <div class="background-lib-bar">
                                         <div class="skill sass"></div>
                                     </div>
                                     
                                 </div>
                                 <div class="container-center">
-                                    <p class="name-lib-lang"><i class="fa-brands fa-react react-icon"></i> React.js </p>
+                                    <p class="name-lib-lang"><i class="fa-brands fa-react react-icon react"></i> React.js </p>
                                     <div class="background-lib-bar">
                                         <div class="skill react"></div>
                                     </div>
-                                    <p class="name-lib-lang"><i class="fa-brands fa-node-js node-icon"></i> Node.js </p>
+                                    <p class="name-lib-lang"><i class="fa-brands fa-node-js node-icon node"></i> Node.js </p>
                                     <div class="background-lib-bar">
                                         <div class="skill node"></div>
                                     </div>
                                     
                                 </div>
                                 <div class="container-right">
-                                    <p class="name-lib-lang"><i class="fa-brands fa-discord discord-icon"></i> Discord.js </p>
+                                    <p class="name-lib-lang"><i class="fa-brands fa-discord discord-icon git"></i> Discord.js </p>
                                     <div class="background-lib-bar">
                                         <div class="skill discord"></div>
                                     </div>
-                                    <p class="name-lib-lang"><i class="fa-brands fa-git-alt fa-lg git-icon"></i> GIT </p>
+                                    <p class="name-lib-lang"><i class="fa-brands fa-git-alt fa-lg git-icon git"></i> GIT </p>
                                     <div class="background-lib-bar">
                                         <div class="skill git"></div>
                                     </div>

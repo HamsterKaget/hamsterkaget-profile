@@ -12,3 +12,8 @@
     
 
 }
+
+@mixin icon-color($warna) {
+    color: $warna;
+    
+}

@@ -5,6 +5,8 @@ import Landing from './pagejs/landing';
 import Jobs from './pagejs/jobs';
 import Skills from './pagejs/skills.js';
 import Library from './pagejs/library.js'
+import Bahasa from './pagejs/bahasa.js';
+import Workbench from './pagejs/workbench.js';
 
 class App extends React.Component {
   render() {
@@ -16,6 +18,8 @@ class App extends React.Component {
         <Jobs />
         <Skills />
         <Library />
+        <Bahasa />
+        <Workbench />
       </section>
 
     )

@@ -19,7 +19,7 @@ class Navbar extends React.Component {
                                 <li><a href="#">Services</a></li>
                                 <li><a href="#">Contact Us</a></li>
                                 <li><a href="#">Invite Bot</a></li>
-                                <li><a href="#"><span class="material-icons-outlined">menu</span></a></li>
+                                <li><a href="#"><i class="fa-solid fa-circle-chevron-down fa-rotate-90"></i></a></li>
                             </ul>
                         </div>
                     </div>

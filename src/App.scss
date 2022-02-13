@@ -465,3 +465,163 @@ a.button {
         }
     }
 }
+
+// Css for icon 
+
+.bahasa {
+
+    .bahasa-wrapper {
+
+        .heading-title {
+            text-align: center;
+        }
+
+        .bahasa-icon {
+            margin: 20px 45px;
+
+            .icon-wrapper {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                text-align: center;
+                
+                .icon  {
+                    flex: 10%;
+                    min-width: 10%;
+                    margin: 0 auto;
+                    text-align: center;
+                    display: inline-block;
+                    padding: 20px;
+                    text-transform: uppercase;
+                    
+                }
+            }
+        }
+    }
+}
+
+.html {
+    @include icon-color($html);
+}
+
+.css {
+    @include icon-color($css);
+}
+
+.js {
+    @include icon-color($js);
+}
+
+.java {
+    @include icon-color($java);
+}
+
+.php {
+    @include icon-color($php);
+}
+
+.python {
+    @include icon-color($python);
+}
+
+.sql {
+    @include icon-color($sql);
+}
+
+.sass {
+    @include icon-color($sass);
+}
+
+.boostrap {
+    @include icon-color($boostrap);
+}
+
+.react {
+    @include icon-color($react);
+}
+
+.node {
+    @include icon-color($node);
+}
+
+.git {
+    @include icon-color($git);
+}
+
+.ubuntu {
+    @include icon-color($ubuntu);
+}
+
+.windows {
+    @include icon-color($windows);
+}
+
+.figma {
+    @include icon-color($light-purple)
+}
+
+// css for workbench.js
+
+.workbench-wrapper {
+
+    .title {
+        text-align: center;
+
+        h3 {
+            font-size: 26px;
+            font-weight: 500;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+        }
+        
+        hr {
+            margin: 0 auto;
+            width: 40%;
+        }
+    }
+
+    .workbench-container {
+        margin: 30px 45px;
+
+        .label-wrapper {
+            margin: 0 auto;
+            border-style: solid;
+            border-width: 1px;
+            border-color: $font-color;
+            color: $background-card;
+
+            .label {
+                width: 30%;
+                margin: 2.5% 0;
+                display: inline-block;
+                height: 60px;
+                background-color: $background-button;
+                
+                .label-container {
+
+                    i, p {
+                        line-height: 60px;
+                        display: inline;
+                    }
+
+                    i {
+                        margin: 0 15px 0 30px;
+                    }
+
+                    p {
+                        text-align: center;
+                    }
+                }
+                
+            }
+
+            .os, .laptop {
+                margin: 0 2.5%;
+            }
+
+        }
+    }
+
+}
+

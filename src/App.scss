@@ -722,3 +722,32 @@ a.button {
     }
 }
 
+.slider-wrapper {
+    .slider-container {
+        position: relative;
+        background-color: $background-card;
+
+        .slider {
+            display: none;
+        }
+
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 40%;
+            width: auto;
+            padding: 16px;
+            margin-top: -50px;
+            color: white;
+            font-size: 20px;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        .cursor {
+            cursor: pointer;
+        }
+    }
+}

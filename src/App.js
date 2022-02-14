@@ -8,6 +8,7 @@ import Library from './pagejs/library.js'
 import Bahasa from './pagejs/bahasa.js';
 import Workbench from './pagejs/workbench.js';
 import Project from './pagejs/project.js';
+import Slider from './pagejs/slider.js'
 
 class App extends React.Component {
   render() {
@@ -22,6 +23,7 @@ class App extends React.Component {
         <Bahasa />
         <Workbench />
         <Project />
+        <Slider />
       </section>
 
     )
